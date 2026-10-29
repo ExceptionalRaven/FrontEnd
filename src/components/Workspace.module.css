@@ -1,0 +1,23 @@
+.workspaceContainer {
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+    height: 100%; 
+    overflow: hidden;
+    background: #eaeaea;
+}
+
+.emptyState {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.previewWrapper {
+    flex: 1;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    overflow: auto;
+}
